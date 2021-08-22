@@ -26,6 +26,8 @@ public class ExecuteChromeTest {
 		
 		driver.findElement(By.xpath("//button[@aria-label='Play']")).click();
 		
+		Thread.sleep(2000);
+		
 		driver.findElement(By.xpath("//button[@aria-label='Mute (m)']")).click();
 		
 		Thread.sleep(105000);

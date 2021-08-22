@@ -1,23 +1,24 @@
 package com.run;
 
+import org.junit.Test;
+import org.junit.internal.runners.JUnit38ClassRunner;
+import org.junit.runner.RunWith;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.ie.InternetExplorerDriver;
-
 import io.github.bonigarcia.wdm.WebDriverManager;
 import io.github.bonigarcia.wdm.managers.ChromeDriverManager;
-import io.github.bonigarcia.wdm.managers.InternetExplorerDriverManager;
 
-public class ExecuteIE {
+public class ExecuteChromeTest {
 
-	public static void main(String[] args) throws InterruptedException {
-
-		WebDriverManager m = new InternetExplorerDriverManager();
+	@Test
+	public void runTest() throws InterruptedException {
+		
+		WebDriverManager m = new ChromeDriverManager();
 		
 		m.setup();
 		
-		WebDriver driver = new InternetExplorerDriver();
+		WebDriver driver = new ChromeDriver();
 		
 		driver.get("https://youtu.be/8d21RCZ41Qw");		
 		

@@ -1,5 +1,6 @@
 package com.run;
 
+import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -11,9 +12,10 @@ import io.github.bonigarcia.wdm.managers.ChromeDriverManager;
 import io.github.bonigarcia.wdm.managers.EdgeDriverManager;
 import io.github.bonigarcia.wdm.managers.FirefoxDriverManager;
 
-public class ExecuteFireFox {
+public class ExecuteFireFoxTest {
 
-	public static void main(String[] args) throws InterruptedException {
+	@Test
+	public void runTest() throws InterruptedException {
 
 		WebDriverManager m = new FirefoxDriverManager();
 		

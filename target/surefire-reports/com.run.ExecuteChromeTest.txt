@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.run.ExecuteChromeTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.177 s <<< FAILURE! - in com.run.ExecuteChromeTest
+initializationError(com.run.ExecuteChromeTest)  Time elapsed: 0.056 s  <<< ERROR!
+java.lang.ClassCastException: class com.run.ExecuteChromeTest
+

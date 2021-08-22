@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: com.run.ExecuteEdgeTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 57.982 s <<< FAILURE! - in com.run.ExecuteEdgeTest
+runTest(com.run.ExecuteEdgeTest)  Time elapsed: 57.969 s  <<< ERROR!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: MicrosoftEdge=92.0.902.78)
+Build info: version: '4.0.0-beta-4', revision: '29f46d02dd'
+System info: host: 'SURAJMISHRA', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [ae2579ae7d9cc784304e10cee4b251d6, clickElement {id=656dcc88-4d2c-416e-850e-3451a0503c87}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 92.0.902.78, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:52253}, msedge: {msedgedriverVersion: 92.0.902.78 (cf138c12fbef5d..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52253/devtoo..., se:cdpVersion: 92.0.902.78, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on WINDOWS (ae2579ae7d9cc784304e10cee4b251d6)] -> xpath: //button[@aria-label='Play']]
+Session ID: ae2579ae7d9cc784304e10cee4b251d6
+	at com.run.ExecuteEdgeTest.runTest(ExecuteEdgeTest.java:28)
+
